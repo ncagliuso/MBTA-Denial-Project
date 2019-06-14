@@ -78,4 +78,4 @@ This excel file should contain the following fields:
 
 This project compiles a table featuring each Buyer, their buyer team, the number of denied PO's they've had over the first three quarters of the fiscal year, their total number of PO's over the same time period, and a percentage that is Denial Count/Total PO count.
 
-![]https://github.com/ncagliuso/MBTA-Denial-Project/blob/master/Denial%20Table.jpeg
+![](https://github.com/ncagliuso/MBTA-Denial-Project/blob/master/Denial%20Table.jpeg)
