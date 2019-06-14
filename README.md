@@ -44,6 +44,8 @@ This excel file should contain the following columns:
 | Buyer                        | Buyer assigned to that PO                 |
 | Line_Count                   | Line of PO; always 1 in this case         |
 
+* NOTE: Multiple denials on one requisition are counted individually rather than simply as one denial; as theoretically the Buyer made multiple, separate mistakes warranting multiple denials despite it being on one requisition
+
 #### `REQ_TO_PO_SPILT_PO_SIDE_DanZ.xlsx`
 
 This excel file should contain the following fields:
@@ -75,16 +77,3 @@ This excel file should contain the following fields:
 ### Output File(s)
 
 This project compiles a table featuring each Buyer, their buyer team, the number of denied PO's they've had over the first three quarters of the fiscal year, their total number of PO's over the same time period, and a percentage that is Denial Count/Total PO count.
-
-
-
-
-
-
-
-
-
-
-
-
-
